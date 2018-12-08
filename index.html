@@ -2,30 +2,28 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<link rel="stylesheet" href="./tgStyle.css">
 <title>Temporal Odyssey: Timeline Generator</title>
 </head>
 <body>
-<h1>Temporal Odyssey Timeline Generator</h1>
+<h1>Temporal Odyssey <br>Timeline Generator</h1>
 <p>This web app is designed to chose the sub-set cards for the specific time periods used in the game.</p>
-<h2>The Past</h2>
-<input type="text" id="a1">
-<input type="text" id="a2">
-<input type="text" id="a3">
-<br>
-<br>
-<h2>The Present</h2>
-<input type="text" id="r1">
-<input type="text" id="r2">
-<input type="text" id="r3">
-<br>
-<br>
-<h2>The Future</h2>
-<input type="text" id="f1">
-<input type="text" id="f2">
-<input type="text" id="f3">
-<br>
-<br>
+<h2>The Past  The Present  The Future</h2>
 <button name="Populate" title="Populate"  id="Populate" type="button">Populate</button>
+<br>
+<input type="text" class="past" id="a1" readonly="">
+<input type="text" class="present" id="r1" readonly="">
+<input type="text" class="future" id="f1" readonly="">
+<br>
+<br>
+<input type="text" class="past" id="a2" readonly="">
+<input type="text" class="present" id="r2" readonly="">
+<input type="text" class="future" id="f2" readonly="">
+<br>
+<br>
+<input type="text" class="past" id="a3" readonly="">
+<input type="text" class="present" id="r3" readonly="">
+<input type="text"class="future" id="f3" readonly="">
 <script src='tgJS.js'></script>
 </body>
 </html>

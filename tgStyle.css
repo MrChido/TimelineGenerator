@@ -1,0 +1,17 @@
+.present{
+color: #b33008;
+width:123px;
+}
+.past{
+color:#11691b;
+width:88px;
+}
+.future{
+color:#945800;
+width: 113px;
+}
+#Populate{
+width: 344px;
+margin-top: 15px;
+margin-bottom: 40px;
+}
