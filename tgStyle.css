@@ -15,3 +15,15 @@ width: 344px;
 margin-top: 15px;
 margin-bottom: 40px;
 }
+body{
+background-color: black;
+background-image: url("./timeStream.jpg");
+}
+h1, h2{
+color: #96c;
+}
+p{
+color: #bf94e4;
+}
+/*MAP*/
+@media(max-width:400px){}
