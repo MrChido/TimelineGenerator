@@ -20,6 +20,9 @@ const futureThree=document.getElementById('f3');
 
 const assign = document.getElementById("Populate");
 
+const soloA = document.getElementById("soloPast");
+const soloR =document.getElementById("soloPresent");
+const soloF = document.getElementById("soloFuture");
 //function zone
 function randomPast() {
 	return pastCreature[Math.floor(Math.random()*pastCreature.length)];
@@ -41,4 +44,20 @@ assign.addEventListener('click', ()=>{
 	f1.value=randomFuture();
 	f2.value=randomFuture();
 	f3.value=randomFuture();
+});
+
+soloA.addEventListener('click', ()=>{
+a1.value=randomPast();
+a2.value=randomPast();
+a3.value=randomPast();
+});
+soloR.addEventListener('click', ()=>{
+r1.value=randomPresent();
+r2.value=randomPresent();
+r3.value=randomPresent();
+});
+soloF.addEventListener('click', ()=>{
+f1.value=randomFuture();
+f2.value=randomFuture();
+f3.value=randomFuture();
 });

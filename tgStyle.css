@@ -25,5 +25,14 @@ color: #96c;
 p{
 color: #bf94e4;
 }
+#soloPast{
+margin-left: 9px;
+}
+#soloPresent{
+margin-left: 25px;
+}
+#soloFuture{
+margin-left: 35px;
+}
 /*MAP*/
 @media(max-width:400px){}
