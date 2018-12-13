@@ -1,9 +1,11 @@
 .present{
-color: #b33008;
+background-color: #b39c0ec2;
+color: #fbec5d;
 width:123px;
 }
 .past{
-color:#11691b;
+background-color:#006a4eb0; 
+color: #cf0;
 width:88px;
 }
 .future{
@@ -42,6 +44,7 @@ margin-left:90px;
 @media(max-width:400px){
 .past{
 width:60px;
+margin-left:80px;
 }
 
 .present{
@@ -51,9 +54,5 @@ width:55px;
 .future{
 width:62px;
 }
-#a1{
-margin-left: 90px;
-}
-
 
 }
