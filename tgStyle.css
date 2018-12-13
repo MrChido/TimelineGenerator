@@ -23,7 +23,7 @@ background-color: black;
 background-image: url("./timeStream.jpg");
 }
 h1, h2{
-color: #96c;
+color: #cca1f7;
 }
 p{
 color: #bf94e4;
@@ -38,7 +38,7 @@ margin-left: 25px;
 margin-left: 35px;
 }
 #a1{
-margin-left:90px;
+margin-left:80px;
 }
 /*MAP*/
 @media(max-width:400px){
