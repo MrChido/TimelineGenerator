@@ -36,4 +36,16 @@ margin-left: 25px;
 margin-left: 35px;
 }
 /*MAP*/
-@media(max-width:400px){}
+@media(max-width:400px){
+.past{
+width:60px;
+}
+
+.present{
+width:55px;
+}
+
+.future{
+width:62px;
+}
+}
